@@ -10,7 +10,7 @@ class App < Sinatra::Base
   post '/' do
 
 
-    erb: results
+    erb :results
   end
 
 end
