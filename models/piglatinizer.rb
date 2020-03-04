@@ -1,7 +1,7 @@
 class PigLatinizer
   attr_reader :text
 
-  def piglatinizer(input_str)
+  def piglatinize(input_str)
     input_str.split(" ").length == 1 ? pl_word(input_str) : pl_phrase(input_str)
   end
 
